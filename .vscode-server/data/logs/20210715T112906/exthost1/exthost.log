@@ -1,0 +1,130 @@
+[2021-07-15 11:29:12.453] [exthost] [info] extension host started
+[2021-07-15 11:29:12.529] [exthost] [info] Lock '/home/fil/.vscode-server/data/User/workspaceStorage/d036a806a8e7dabe5d56273a3f813bec/vscode.lock': Lock acquired.
+[2021-07-15 11:29:13.074] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-07-15 11:29:13.074] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/extensions/debug-auto-launch/dist/extension
+[2021-07-15 11:29:13.179] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-15 11:29:13.179] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/extensions/git/dist/main
+[2021-07-15 11:29:13.479] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-07-15 11:29:13.479] [exthost] [info] Lock '/home/fil/.vscode-server/data/User/workspaceStorage/d036a806a8e7dabe5d56273a3f813bec/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-07-15 11:29:13.481] [exthost] [error] [ExtHostStorage] {"code":"Unknown","name":"Canceled (FileSystemError)"}
+[2021-07-15 11:29:13.494] [exthost] [error] Activating extension vscode.debug-auto-launch failed due to an error:
+[2021-07-15 11:29:13.494] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:5:1157)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:8146
+	at Array.forEach (<anonymous>)
+	at u.dispose (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:8094)
+	at b.terminate (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:93:682)
+	at h (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:31703)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:29730
+	at d.fire (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 11:29:13.495] [exthost] [error] Activating extension vscode.git failed due to an error:
+[2021-07-15 11:29:13.495] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:5:1157)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:8146
+	at Array.forEach (<anonymous>)
+	at u.dispose (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:8094)
+	at b.terminate (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:93:682)
+	at h (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:31703)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:29730
+	at d.fire (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at h.fire (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:15777)
+	at r._receiveMessage (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:21035)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:17921
+	at d.fire (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at c.acceptChunk (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:13138)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:65:12486
+	at d.fire (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:57:1726)
+	at b._acceptChunk (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:19103)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:15516
+	at Socket._ (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:103:13107)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-07-15 11:29:13.498] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-07-15 11:29:13.498] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/extensions/emmet/dist/node/emmetNodeMain
+[2021-07-15 11:29:13.557] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-07-15 11:29:13.557] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/extensions/merge-conflict/dist/mergeConflictMain
+[2021-07-15 11:29:13.573] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-07-15 11:29:13.573] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/extensions/testing-editor-contributions/dist/extension.js
+[2021-07-15 11:29:13.575] [exthost] [info] eager extensions activated
+[2021-07-15 11:29:13.577] [exthost] [error] Activating extension vscode.emmet failed due to an error:
+[2021-07-15 11:29:13.577] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:5:1157)
+	at u._remoteCall (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:12817)
+	at Proxy._.<computed>.D.charCodeAt._.<computed> (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:9349)
+	at y.getValue (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:85:28510)
+	at new R (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:77:5143)
+	at new k (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:77:6139)
+	at c._loadExtensionContext (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:12913)
+	at c._doActivateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:12631)
+	at c._activateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:11657)
+	at Object.actualActivateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:9202)
+	at d._activateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:97724)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:97406
+	at Array.map (<anonymous>)
+	at d._activateExtensions (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:97394)
+	at d.activateById (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:95024)
+	at c._activateById (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:10204)
+	at c._activateOneStartupFinished (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:15096)
+	at c._activateAllStartupFinished (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:15467)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:15956
+[2021-07-15 11:29:13.588] [exthost] [error] Activating extension vscode.merge-conflict failed due to an error:
+[2021-07-15 11:29:13.588] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:5:1157)
+	at u._remoteCall (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:12817)
+	at Proxy._.<computed>.D.charCodeAt._.<computed> (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:9349)
+	at y.getValue (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:85:28510)
+	at new R (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:77:5143)
+	at new k (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:77:6139)
+	at c._loadExtensionContext (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:12913)
+	at c._doActivateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:12631)
+	at c._activateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:11657)
+	at Object.actualActivateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:9202)
+	at d._activateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:97724)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:97406
+	at Array.map (<anonymous>)
+	at d._activateExtensions (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:97394)
+	at d.activateById (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:95024)
+	at c._activateById (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:10204)
+	at c._activateOneStartupFinished (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:15096)
+	at c._activateAllStartupFinished (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:15467)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:15956
+[2021-07-15 11:29:13.589] [exthost] [error] Activating extension vscode.testing-editor-contributions failed due to an error:
+[2021-07-15 11:29:13.589] [exthost] [error] Canceled: Canceled
+	at Object.i [as canceled] (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:5:1157)
+	at u._remoteCall (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:12817)
+	at Proxy._.<computed>.D.charCodeAt._.<computed> (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:88:9349)
+	at y.getValue (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:85:28510)
+	at new R (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:77:5143)
+	at new k (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:77:6139)
+	at c._loadExtensionContext (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:12913)
+	at c._doActivateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:12631)
+	at c._activateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:11657)
+	at Object.actualActivateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:9202)
+	at d._activateExtension (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:97724)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:97406
+	at Array.map (<anonymous>)
+	at d._activateExtensions (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:97394)
+	at d.activateById (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:95024)
+	at c._activateById (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:10204)
+	at c._activateOneStartupFinished (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:15096)
+	at c._activateAllStartupFinished (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:15467)
+	at /home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:89:15956
+[2021-07-15 11:29:14.480] [exthost] [info] exiting with code 0

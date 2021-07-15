@@ -1,0 +1,45 @@
+[2021-07-13 11:44:38.438] [exthost] [info] extension host started
+[2021-07-13 11:44:38.474] [exthost] [info] Lock '/home/fil/.vscode-server/data/User/workspaceStorage/8c5da7bb590a019147f8b01c4f843ae6/vscode.lock': Lock acquired.
+[2021-07-13 11:44:38.619] [exthost] [info] ExtensionService#_doActivateExtension batisteo.vscode-django {"startup":false,"extensionId":{"value":"batisteo.vscode-django","_lower":"batisteo.vscode-django"},"activationEvent":"onLanguage:python"}
+[2021-07-13 11:44:38.619] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/extensions/batisteo.vscode-django-1.6.0/out/extension
+[2021-07-13 11:44:38.631] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.vscode-pylance","_lower":"ms-python.vscode-pylance"},"activationEvent":"onLanguage:python"}
+[2021-07-13 11:44:38.631] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension
+[2021-07-13 11:44:39.182] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter {"startup":false,"extensionId":{"value":"ms-toolsai.jupyter","_lower":"ms-toolsai.jupyter"},"activationEvent":"onLanguage:python"}
+[2021-07-13 11:44:39.182] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/extensions/ms-toolsai.jupyter-2021.8.1013163132/out/client/extension
+[2021-07-13 11:44:39.658] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-07-13 11:44:39.659] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/debug-auto-launch/dist/extension
+[2021-07-13 11:44:39.665] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-13 11:44:39.665] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/git/dist/main
+[2021-07-13 11:44:39.744] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":true,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"*"}
+[2021-07-13 11:44:39.744] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/extensions/ecmel.vscode-html-css-1.10.2/dist/extension.js
+[2021-07-13 11:44:40.406] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-07-13 11:44:40.406] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/github/dist/extension.js
+[2021-07-13 11:44:40.771] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-07-13 11:44:40.772] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/ms-vscode.js-debug/src/extension.js
+[2021-07-13 11:44:42.687] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance {"startup":false,"extensionId":{"value":"ms-python.vscode-pylance","_lower":"ms-python.vscode-pylance"},"activationEvent":"onLanguage:python"}
+[2021-07-13 11:44:42.687] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/extensions/ms-python.vscode-pylance-2021.7.2/dist/extension.bundle.js
+[2021-07-13 11:44:42.882] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-07-13 11:44:42.882] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/emmet/dist/node/emmetNodeMain
+[2021-07-13 11:44:42.896] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-07-13 11:44:42.896] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/merge-conflict/dist/mergeConflictMain
+[2021-07-13 11:44:42.899] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-07-13 11:44:42.900] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fil/.vscode-server/bin/2d23c42a936db1c7b3b06f918cde29561cc47cd6/extensions/testing-editor-contributions/dist/extension.js
+[2021-07-13 11:44:42.902] [exthost] [info] eager extensions activated
+[2021-07-13 11:46:46.569] [exthost] [error] [ms-python.python] provider FAILED
+[2021-07-13 11:46:46.570] [exthost] [error] Canceled: Canceled
+	at E.makeCancelError (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:184136)
+	at E.handleFailedRequest (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:183987)
+	at /home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:151848
+[2021-07-13 11:50:10.566] [exthost] [error] [ms-python.python] provider FAILED
+[2021-07-13 11:50:10.567] [exthost] [error] Canceled: Canceled
+	at E.makeCancelError (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:184136)
+	at E.handleFailedRequest (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:183987)
+	at /home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:144329
+[2021-07-13 11:52:29.007] [exthost] [error] [ms-python.python] provider FAILED
+[2021-07-13 11:52:29.007] [exthost] [error] Canceled: Canceled
+	at E.makeCancelError (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:184136)
+	at E.handleFailedRequest (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:183987)
+	at /home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:144329
+[2021-07-13 18:06:09.049] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-07-13 18:06:09.054] [exthost] [info] Lock '/home/fil/.vscode-server/data/User/workspaceStorage/8c5da7bb590a019147f8b01c4f843ae6/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-07-13 18:06:10.305] [exthost] [info] exiting with code 0

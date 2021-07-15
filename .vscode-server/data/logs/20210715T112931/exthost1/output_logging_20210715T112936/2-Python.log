@@ -1,0 +1,32 @@
+User belongs to experiment group 'pythonaa'
+User belongs to experiment group 'pythonJediLSP'
+User belongs to experiment group 'pythonDiscoveryModuleWithoutWatcher'
+User belongs to experiment group 'pythonTensorboardExperiment'
+User belongs to experiment group 'pythonSurveyNotificationcf'
+User belongs to experiment group 'PythonPyTorchProfiler'
+User belongs to experiment group 'pythonDeprecatePythonPath'
+Python interpreter path: /usr/bin/python3
+Starting Pylance language server.
+Error 2021-07-15 11:29:40: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file 'vscode-remote://wsl+ubuntu-20.04/home/fil/.config/Code/User/settings.json' (Error: Unable to resolve non-existing file 'vscode-remote://wsl+ubuntu-20.04/home/fil/.config/Code/User/settings.json')
+	at _handleError (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:167834)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async y.readText (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:343940)
+	at async p.doesFileNeedToBeFixed (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:59:581700)
+	at async /home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:59:580827
+	at async Promise.all (index 0)
+	at async p.getFilesToBeFixed (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:59:580773)
+	at async p.updateTestSettings (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:59:580400)] {
+  code: 'FileNotFound'
+}
+Error 2021-07-15 11:29:40: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file 'vscode-remote://wsl+ubuntu-20.04/home/fil/django_project/.vscode/settings.json' (Error: Unable to resolve non-existing file 'vscode-remote://wsl+ubuntu-20.04/home/fil/django_project/.vscode/settings.json')
+	at _handleError (/home/fil/.vscode-server/bin/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/out/vs/server/remoteExtensionHostProcess.js:84:167834)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async y.readText (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:9:343940)
+	at async p.doesFileNeedToBeFixed (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:59:581700)
+	at async /home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:59:580827
+	at async Promise.all (index 1)
+	at async p.getFilesToBeFixed (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:59:580773)
+	at async p.updateTestSettings (/home/fil/.vscode-server/extensions/ms-python.python-2021.6.944021595/out/client/extension.js:59:580400)] {
+  code: 'FileNotFound'
+}
+> conda --version
